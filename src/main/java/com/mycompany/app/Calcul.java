@@ -5,7 +5,7 @@ package com.mycompany.app;
  */
 public class Calcul {
 
-    public final int additionner(final int a, final int b) {
+    public int additionner(final int a, final int b) {
         return a + b;
     }
 
