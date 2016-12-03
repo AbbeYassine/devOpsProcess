@@ -9,7 +9,7 @@ public class Calcul {
         return a + b;
     }
 
-    public int multiplier(final int a, final int b) {
+    public final int multiplier(final int a, final int b) {
         return a * b;
     }
 
