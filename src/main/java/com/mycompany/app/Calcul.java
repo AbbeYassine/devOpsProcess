@@ -9,13 +9,12 @@ public class Calcul {
         return a + b;
     }
 
-    public final int multiplier(final int a, final int b) {
+    public int multiplier(final int a, final int b) {
         return a * b;
     }
 
     public final boolean trait(final String name) {
-        String local = name;
-        local = local.toUpperCase();
-        return local.equals("YASSINE");
+        name.toUpperCase();
+        return name.equals("YASSINE");
     }
 }
