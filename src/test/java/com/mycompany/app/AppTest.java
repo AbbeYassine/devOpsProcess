@@ -40,5 +40,9 @@ public class AppTest extends TestCase {
         assertEquals("Test Additionner ", calcul.additionner(8, 4), 12);
     }
 
+    public void testMultiplier() {
+        assertEquals("Test Multiplier ", calcul.multiplier(8, 2), 16);
+    }
+
 
 }
