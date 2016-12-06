@@ -11,7 +11,6 @@ public final class App {
     public static void main(final String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("My-App is running !");
-        System.out.println("My-App is running !");
         while (true) {
             int x, y, res = 0;
             System.out.println();
