@@ -35,6 +35,7 @@ public final class App {
                 case 2:
                     res = calcul.multiplier(x, y);
                     break;
+                // #FindBugs default statement is missing
             }
 
             System.out.println("resultat : " + res);
