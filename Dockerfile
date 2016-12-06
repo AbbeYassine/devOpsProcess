@@ -12,7 +12,7 @@ WORKDIR /usr/src/my-app
 COPY . /usr/src/my-app
 
 # Run maven install mvn plugins and to build the project
-RUN mvn install
+#RUN mvn install
 
 #START THE APP
 ENTRYPOINT ["java","-cp","target/my-app-1.0.jar","com.mycompany.app.App"]
