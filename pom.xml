@@ -63,11 +63,12 @@
                 </executions>
             </plugin>
 
-            <!--<plugin>
+            <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.13</version>
                 <executions>
+                    <execution>
                         <phase>package</phase>
                         <goals>
                             <goal>build</goal>
@@ -79,7 +80,7 @@
                     <dockerDirectory>${project.basedir}</dockerDirectory>
                     <imageName>dev-ops/${project.artifactId}</imageName>
                 </configuration>
-            </plugin>-->
+            </plugin>
 
         </plugins>
     </build>
