@@ -79,6 +79,9 @@
                 <configuration>
                     <dockerDirectory>${project.basedir}</dockerDirectory>
                     <imageName>dev-ops/${project.artifactId}</imageName>
+                    <imageTags>
+                        <imageTag>${project.version}</imageTag>
+                    </imageTags>
                     <!--
                     <pushImage>true</pushImage>
                     <imageName>s4m37/jenkins-mvn-docker</imageName>

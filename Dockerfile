@@ -15,4 +15,4 @@ COPY . /usr/src/my-app
 #RUN mvn install
 
 #START THE APP
-ENTRYPOINT ["java","-cp","target/my-app-1.0.jar","com.mycompany.app.App"]
+ENTRYPOINT ["java","-cp","target/my-app-1.1.jar","com.mycompany.app.App"]
